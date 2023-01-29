@@ -1,0 +1,144 @@
+.container{
+  position: relative;
+  width: 350px;
+  background-color: #15263f;
+  border-radius: 15px;
+  height: 596px;
+  margin: auto;
+  margin-top: 2.5%;
+}
+.container:hover .overlay{
+  visibility: visible;
+}
+.container:hover .eye-img{
+  visibility: visible;
+}
+.photo{
+  width: 302px;
+  height: 302px;
+  object-fit: cover;
+  padding: 24px;
+  border-radius: 8%;
+}
+.overlay{
+  visibility: hidden;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  border-radius: 8px;
+  width: 302px;
+  height: 302px;
+  object-fit: cover;
+  background: #00fff8;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.eye-img{
+  visibility: hidden;
+  position: absolute;
+  width: 44px;
+  height: 30px;
+  top: 157px;
+  left: 155px;
+}
+.first-text{
+  color: white;
+  margin-left: 24px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: outfite;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.first-text:hover{
+  cursor: pointer;
+  color: #00fff8;
+}
+.second-text{
+  color: #8BACD9;
+  font-size: 20px;
+  margin-left: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  font-family: outfite;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.middle-info{
+  display: flex;
+  justify-content: flex-start;
+}
+.second-photo{
+  padding-left: 24px;
+  display: inline-block;
+  width: 11px;
+  height: 18px;
+}
+.third-text{
+  color: #00fff8;
+  margin-left: 38px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-left: 6.48px;
+  padding-right: 112.15px;
+  font-size: 16px;
+  font-family: outfit;
+}
+.clock-photo{
+  margin-top: 6px;
+  width: 13.33px;
+  height: 13.33px;
+  object-fit: cover;
+  margin-right: 9.03px;
+}
+.days{
+  color: #8BACD9;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 3px;
+  font-family: outfit;
+}
+.rectangle{
+  width: 302px;
+  height: 1px;
+  background-color: #2E405A;
+  border: none;
+}
+.last-info{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.man-photo{
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-left: 24px;
+  background-color: white;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 16px;
+}
+.creacton{
+  color: #8BACD9;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: outfit;
+  margin-top: 14px;
+  margin-right: 5px;
+}
+.name{
+  color: white;
+  margin-top: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: outfit;
+}
+.name:hover{
+  color: #00fff8;
+  cursor: pointer;
+}
+
+
